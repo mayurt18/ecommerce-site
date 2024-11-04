@@ -12,7 +12,7 @@ class User {
         $stmt->execute(['username' => $username]);
         $user = $stmt->fetch();
 
-        // Verify password (passwords are stored as hashes)
+        
         if ($user && hash_equals($user['password'], hash('sha256', $password))) {
             return true;
         }
