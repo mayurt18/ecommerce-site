@@ -8,7 +8,7 @@ class AdminController {
         $this->user = $user;
     }
 
-    // Show login form
+    
     public function showLogin() {
         include '../app/Views/admin/login.php';
     }
