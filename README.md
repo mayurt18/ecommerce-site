@@ -16,6 +16,5 @@ Frontend: HTML, CSS (with advanced styling and animations), JavaScript (AJAX for
 
 PHP: Version 7.4+
 MySQL: Version 5.7+
-Apache Server: Use XAMPP or LAMPP for local development
 phpMyAdmin (for database management)
 
