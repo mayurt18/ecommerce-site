@@ -42,7 +42,6 @@ class Cart {
         $stmt->execute(['id' => $cartItemId]);
     }
 
-    // Complete order and clear cart
     public function completeOrder($sessionId, $total) {
         $stmt = $this->pdo->prepare("INSERT INTO orders (session_id, total) VALUES (:session_id, :total)");
         $stmt->execute(['session_id' => $sessionId, 'total' => $total]);
