@@ -12,7 +12,7 @@ Admin Panel: Admins can add, edit, and delete products from the catalog.
 Technologies Used
 Backend: PHP (Object-Oriented, MVC Architecture)
 Database: MySQL
-Frontend: HTML, CSS (with advanced styling and animations), JavaScript (AJAX for real-time cart updates)
+Frontend: HTML, CSS , JavaScript (AJAX for real-time cart updates)
 
 PHP: Version 7.4+
 MySQL: Version 5.7+
