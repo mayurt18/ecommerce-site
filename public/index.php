@@ -20,7 +20,7 @@ $base_path = '/ecommerce-site/public';
 
 $uri = str_replace($base_path, '', $uri); // Remove base path from URI
 
-// Routing based on URI
+
 switch ($uri) {
     case '/':
         $productController->showCatalog($_GET['search'] ?? null);
