@@ -1,4 +1,4 @@
-// Add item to cart via AJAX
+
 function addToCart(productId) {
     const quantity = document.querySelector("input[name='quantity']").value;
 
@@ -14,7 +14,7 @@ function addToCart(productId) {
     .catch(error => console.error('Error:', error));
 }
 
-// Remove item from cart via AJAX
+
 function removeFromCart(cartItemId) {
     fetch(`/ecommerce-site/public/cart/remove`, {
         method: 'POST',
