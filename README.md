@@ -9,12 +9,18 @@ Product Catalog: Users can browse through a list of products, view detailed info
 Shopping Cart: Users can add products to a cart, which updates in real-time using AJAX.
 Checkout and Order Summary: Users can review and confirm their orders before finalizing the checkout.
 Admin Panel: Admins can add, edit, and delete products from the catalog.
+
 Technologies Used
+
 Backend: PHP (Object-Oriented, MVC Architecture)
+
 Database: MySQL
+
 Frontend: HTML, CSS , JavaScript (AJAX for real-time cart updates)
 
+
 PHP: Version 7.4+
-MySQL: Version 5.7+
+
+MySQL
 phpMyAdmin (for database management)
 
