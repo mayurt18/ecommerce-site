@@ -6,8 +6,11 @@ This project is a simple e-commerce website built to showcase a product catalog 
 
 Features
 Product Catalog: Users can browse through a list of products, view detailed information, and search and filter by categories.
+
 Shopping Cart: Users can add products to a cart, which updates in real-time using AJAX.
+
 Checkout and Order Summary: Users can review and confirm their orders before finalizing the checkout.
+
 Admin Panel: Admins can add, edit, and delete products from the catalog.
 
 Technologies Used
